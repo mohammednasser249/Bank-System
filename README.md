@@ -105,8 +105,9 @@ If you're using **Code::Blocks**, follow these steps:
 2. Click on **File → New → Project → Console Application**.  
 3. Select **C++**, then click **Next**.  
 4. Enter a project name (or open an existing one).  
-5. Replace the contents of `main.cpp` with the code from `"Rock_Scissor_Paper Game.cpp"`.  
-6. Click **Build and Run (F9)** to compile and start the game.  
+5. Replace the contents of `main.cpp` with the code from `"Bank System Game.cpp"`.
+6. Make sure the Client.txt file is placed in the same directory as the project files or specify the full path in the code where it reads/writes data. 
+7. Click **Build and Run (F9)** to compile and start the game.  
 
 ---
 
