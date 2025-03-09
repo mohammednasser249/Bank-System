@@ -19,11 +19,16 @@ The system also supports viewing total balances of all clients and managing clie
   - Update client details.
   - Delete a client from the system.
   - Find a specific client by their account number.
+ 
+![img alt](images/Screenshot_1.png)
   
 - **Transactions:**
   - Deposit funds into a client's account.
   - Withdraw funds from a client's account.
   - Display total balances of all clients.
+ 
+  ![img alt](images/Transaction Scree.png)
+
 
 ## File Format (`Client.txt`)
 Each line in the `Client.txt` file contains the following fields, separated by the delimiter `#//#`:
@@ -34,8 +39,8 @@ Each line in the `Client.txt` file contains the following fields, separated by t
 - Account Balance
 
 Example:
-1 - A152#//#4321#//#Ahmed#//#054457659#//#2500
-2 - A125#//#4789#//#Salme#//#050147896#//#5000
+1 - ###A152#//#4321#//#Ahmed#//#054457659#//#2500
+2 - ### A125#//#4789#//#Salme#//#050147896#//#5000
 ---
 
 ## Functions
@@ -70,7 +75,7 @@ To get started, **clone the repository** or download the project manually.
 If you have Git installed, open a terminal (Command Prompt, Git Bash, or PowerShell) and run:
 
 ```bash
-git clone 
+git clone https://github.com/mohammednasser249/Bank-System.git
 ```
 # 🎮 Bank System (C++)
 ### 🚀 How to Run the System  
